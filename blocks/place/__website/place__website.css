@@ -6,14 +6,16 @@
 
 }
 
-@media screen and (max-width: 400px) {
+
+
+@media screen and (max-width: 690px) {
   .place__website {
     width: 352px; 
     margin-top: 24px;
   }
 } 
 
-@media screen and (max-width: 690px) {  /*320*/
+@media screen and (max-width: 320px) {  
   .place__website {
     display: none;
   }

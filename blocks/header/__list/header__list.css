@@ -6,3 +6,9 @@
   padding-left: 0;
 }
 
+
+@media screen and (max-width: 320px) {
+  .header__list {
+    padding-bottom: 8px;
+  }
+}

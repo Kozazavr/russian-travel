@@ -9,8 +9,9 @@
 
 @media screen and (max-width: 320px) {
   .header__lang-link {
-    line-height: 111%;
     font-size: 18px;
+    line-height: 111%;
+    
   }
 }
 
