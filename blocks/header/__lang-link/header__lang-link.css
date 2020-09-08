@@ -1,0 +1,16 @@
+.header__lang-link {
+  line-height: 28px;
+  font-size: 24px;
+}
+
+.header__list-item:first-child .header__lang-link {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    line-height: 111%;
+    font-size: 18px;
+  }
+}
+

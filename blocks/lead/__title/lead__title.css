@@ -1,0 +1,37 @@
+.lead__title {
+  width: 720px;
+  height: 200px;
+  font-family: 'Inter_900';
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .lead__title {
+    width: 450px;
+    height: 130px; 
+    font-size: 64px;
+    line-height: 110%;
+  }
+}
+
+
+@media screen and (max-width: 498px) {
+  .lead__title {
+    width: 380px;
+    height: 130px; 
+    font-size: 54px;
+    line-height: 110%;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .lead__title {
+    width: 288px;
+    height: 88px;
+    font-size: 40px;
+    line-height: 110%;
+  }
+}
