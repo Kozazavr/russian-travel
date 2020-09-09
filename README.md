@@ -8,6 +8,6 @@
 
 При создании проекта были использованы инструменты flex-box и grid-layout, также в контрольных точках прописаны медиазапросы.
 
-Адрес проекта: git@github.com:Kozazavr/russian-travel.git
+Адрес проекта: https://kozazavr.github.io/russian-travel/
 
 
