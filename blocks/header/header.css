@@ -2,16 +2,32 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end; 
-  min-height: 52px;
   max-width: 1184px;
   min-width: 288px;
   margin: 0 auto 56px;
+  
+  padding: 28px 48px 0;
+
+
 }
 
 @media screen and (max-width: 1024px) {
   .header {
     margin: 0 auto 48px;
-    min-height: 42px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 24px 28px 0; 
+  }
+}
+
+
+@media screen and (max-width: 475px) {
+  .header {
+    padding: 16px 16px 0;
   }
 }
 

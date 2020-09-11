@@ -1,5 +1,5 @@
 .place__title {
-  font-family: 'Inter_900';
+  font-weight: 900;
   font-size: 72px;
   line-height: 106%;
   width: 460px;
@@ -27,7 +27,6 @@
     font-size: 42px;
     line-height: 110%;
     width: 340px;
-    min-height: 46px;
     margin: 0 28px 0 0;
   }
 } 
@@ -39,12 +38,11 @@
   }
 } 
 
-@media screen and (max-width: 388px) {  /*320*/
+@media screen and (max-width: 475px) {  
   .place__title {
     font-size: 32px;
     line-height: 109%;
     max-width: 288px;
-    min-height: 35px; 
-
+    margin-left: 16px;
   }
 } 

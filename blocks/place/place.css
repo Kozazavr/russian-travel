@@ -13,10 +13,16 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    min-height: 434px;
     margin: 72px auto 0;
   }
 }
+
+@media screen and (max-width: 690px) {
+  .place {
+    margin: 72px 0 0;
+  }
+}
+
 
 @media screen and (max-width: 320px) {
   .place {
