@@ -40,7 +40,6 @@
     margin-right: 0;
     width: 100vw;
     max-width: 390px;
-    
   }
    
 }
@@ -48,7 +47,7 @@
 @media screen and (max-width: 475px){
   .place__image {
     max-width: 475px;
-   object-fit: cover;
+    object-fit: cover;
   }
    
 }
